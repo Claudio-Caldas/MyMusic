@@ -24,11 +24,8 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
-    background-color: black;
-    color:#d6eec9;
-    border-radius: 10px;
-    padding: 3px;
+header a:hover { 
+    color:#d6eec9;   
 }
 
 .home .interface {
@@ -92,6 +89,7 @@ iframe {
     width: 100vw;  
     margin: auto;
     padding-top: 30px;
+   
     
 }
 
@@ -134,6 +132,7 @@ form input {
 
 .submit {
     text-align: right;
+    
 }
 
 #submit,#reset {
@@ -142,8 +141,9 @@ form input {
     padding: 8px;
     background-color: black;
     color: #6A9A51;
-    margin-bottom: 15px;  
-    overflow: hidden;
+    margin-bottom: 15px; 
+    
+    
 }
 
 #reset {
@@ -219,8 +219,8 @@ span:hover {
     }
 
     .home .interface {
-        background-image: url(../img/LogoEstudio_IMID_Verde.png);
-        background-size: contain;
+       
+        background-size: cover;
         background-position: center;
         height: 100vh;
         
