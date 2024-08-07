@@ -237,5 +237,10 @@ span:hover {
     #survey-form {
         height: 100%;
     }
+
+    form input {
+        color: black;
+        background-color: white;
+    }
 }
 
