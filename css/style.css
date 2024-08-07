@@ -142,8 +142,8 @@ form input {
     padding: 8px;
     background-color: black;
     color: #6A9A51;
-    
     margin-bottom: 15px;  
+    overflow: hidden;
 }
 
 #reset {
