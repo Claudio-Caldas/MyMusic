@@ -211,6 +211,13 @@ span:hover {
 
 @media screen and (max-width:768px) {
 
+    header h1 {
+        font-size:1.2em ;
+        }
+    header h3 {
+    font-size:.91em ;
+    }
+
     .home .interface {
         background-image: url(../img/LogoEstudio_IMID_Verde.png);
         background-size: contain;
@@ -224,7 +231,7 @@ span:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        font-size: .77;
+        font-size: .87em;
     }
 
     #survey-form {
