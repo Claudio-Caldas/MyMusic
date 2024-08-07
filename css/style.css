@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+* {
+    margin:0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     
+}
+
+header {
+    text-align: center;
+    padding: 20px 5%;
+    background-color: #6A9A51;
+    color: #d6eec9;
+}
+
+header h1 {
+    color: black;
+    margin-bottom: 10px;
+  
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: black;
+    color:#d6eec9;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.home .interface {
+   
+   background-color: black;
+    height:83vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    animation: intro ease-in-out 5s forwards;
+    background-image: url(../img/sound\ wave_02_Banner.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: .87;
+    margin: auto;
+
+}
+
+.listening {
+    margin-top: 25px;
+    padding: 7px;
+    cursor: pointer;
+    background-color: #6A9A51;
+    color:black;
+    box-shadow: 0px 0px 60px 5px #d6eec9 ;
+    font-size: 1.1em;
+    border-radius: 12px;
+    font-weight: bold;
+
+}
+.listening:hover {
+    transform: scale(1.1);
+    color: #d6eec9;
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 5%;
+    
+}
+
+.iframe {
+    width: 90%;
+    margin: auto;     
+}
+
+iframe {
+    margin-top: 27px;
+    height:62vh;
+   
+}
+
+.divisao {
+    box-shadow: 0px 0px 0px 5px #d6eec9;
+}
+
+ #container {
+    background-color:rgb(0, 0, 0) ;
+    width: 100vw;  
+    margin: auto;
+    padding-top: 30px;
+    
+}
+
+fieldset {
+    padding: 5px;
+}
+#survey-form {
+    padding: 20px;
+    width: 55vw;
+    height: 74vh;
+    margin: auto;
+   background-color:#6A9A51;
+    color: black;
+    
+    border-radius: 20px;
+    padding-bottom: 5px;
+    font-size: .8em;
+    box-shadow: 0px 0px 10px 2px #d6eec9 ;
+    
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.texts {
+    padding: 5px;
+    
+}
+
+
+form input {
+    padding: 3px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    
+}
+
+.submit {
+    text-align: right;
+}
+
+#submit,#reset {
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: black;
+    color: #6A9A51;
+    
+    margin-bottom: 15px;  
+}
+
+#reset {
+    margin-left: 15px;
+}
+#submit:hover, #reset:hover {
+    background-color: #d6eec9;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.donate {
+    text-align: center;  
+   background-color: black;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+
+.donate p {
+    text-align: center;
+    color: #6A9A51;
+    padding: 3px;
+}
+
+span {
+    color:#6A9A51;
+    font-size: 42px;
+    position: fixed;
+    bottom:5%;
+    right:2%;
+    border: 2px solid  #6A9A51;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #6A9A51;
+    color:black;
+    box-shadow: 0 0 15px #d6eec9;
+    
+}
+
+span:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #6A9A51;
+    
+}
+
+
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: scale(.01);
+       
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+       
+    }
+}
+
