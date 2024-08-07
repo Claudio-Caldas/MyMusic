@@ -224,6 +224,7 @@ span:hover {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        font-size: .77;
     }
 
     #survey-form {
