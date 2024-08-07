@@ -209,3 +209,25 @@ span:hover {
     }
 }
 
+@media screen and (max-width:768px) {
+
+    .home .interface {
+        background-image: url(../img/LogoEstudio_IMID_Verde.png);
+        background-size: contain;
+        background-position: center;
+        height: 100vh;
+        
+        
+    }
+    .botoes {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #survey-form {
+        height: 100%;
+    }
+}
+
