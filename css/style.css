@@ -238,9 +238,14 @@ span:hover {
         height: 100%;
     }
 
-    form input {
-        color: black;
+    .name-label input, .email-label input, .number-label, #dropdown, .input-radio, .input-checkbox, textarea {
         background-color: white;
+        color:black;
+    }
+
+    label input {
+        background-color: white;
+        color:black;
     }
 }
 
