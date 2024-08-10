@@ -296,8 +296,13 @@ span:hover {
     header h1 {
         font-size:1.2em ;
         }
+
     header h3 {
     font-size:.91em ;
+    }
+
+    header nav {
+        text-align: center;
     }
 
     .home .interface {
