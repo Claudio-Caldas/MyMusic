@@ -235,6 +235,21 @@ form input {
     
 }
 
+.claudio {
+    color:#6A9A51;
+    text-align: center;
+}
+
+.claudio a {
+    color:#6A9A51;
+    text-decoration: none;
+}
+
+.claudio a:hover {
+    color:#d6eec9;
+    text-decoration: underline;
+}
+
 .donate {
     text-align: center;  
    background-color: black;
@@ -249,7 +264,8 @@ form input {
     text-align: center;
     color: #6A9A51;
     padding: 3px;
-    margin-top: -20px;
+    margin-top:-5px;
+    
 }
 
 span {
