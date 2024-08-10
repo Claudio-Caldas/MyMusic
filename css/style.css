@@ -188,6 +188,9 @@ fieldset {
     opacity: .77;
     
 }
+input[type=radio]:checked {
+    color:#6A9A51;
+}
 
 hr {
     margin-top: 5px;
