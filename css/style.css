@@ -35,7 +35,7 @@ header nav  {
     margin-top: 10px;
     text-align: right;
     padding: 10px 0;
-    background-color: #000000ad;
+    background-color: #00000098;
     
 }
 
@@ -80,8 +80,8 @@ header nav a:hover {
     padding: 7px;
     cursor: pointer;
     background-color: black;
-    color:#6A9A51;
-    border: 2px solid #6A9A51 ;
+    color:#d6eec9;
+    border: 2px solid #d6eec9 ;
     box-shadow: 0px 0px 60px 5px #d6eec9 ;
     font-size: 1.1em;
     border-radius: 12px;
@@ -90,7 +90,7 @@ header nav a:hover {
 }
 .listening:hover {
     transform: scale(1.1);
-    background-color: #6A9A51;
+    background-color: #d6eec9;
     color:black;
     border: 2px solid black;
 }
@@ -121,33 +121,71 @@ iframe {
 
 .certificados {
     height: 100vh;
-    background-color: #6A9A51;
+    background-image: url(../img/keyboard-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+    text-align: center;
 }
 
+.certificados iframe {
+    width: 92%;
+    height: 72vh;
+    margin-top: 40px;
+    border-radius: 5px;
+   
+}
+
+.menu-certificados {
+
+    background-color: black;
+    color: #d6eec9;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #d6eec9;
+    font-size: 1.3em;
+}
+.menu-certificados:hover {
+    cursor: pointer;
+    background-color: #d6eec9;
+    color: black;
+    border: 2px solid black;
+}
+.pesquisa {
+    height: 100%;
+    margin-bottom: -10px;
+}
  #container {
-    background-color:rgb(0, 0, 0) ;
+   background-image: url(../img/sound\ wave_02_Banner.jpg);
+   background-size: contain;
+   background-attachment: fixed;
+   background-position: center;
     width: 100vw;  
+    height: 100%;
     margin: auto;
     padding-top: 30px;
+    padding-bottom: 30px;
    
-    
 }
 
 fieldset {
-    padding: 5px;
+    padding: 15px;
 }
 #survey-form {
     padding: 20px;
     width: 55vw;
     height: 74vh;
     margin: auto;
-   background-color:#6A9A51;
-    color: black;
-    
+  background-color: black;
+   background-position: center;
+    color: #d6eec9;
     border-radius: 20px;
     padding-bottom: 5px;
     font-size: .8em;
     box-shadow: 0px 0px 10px 2px #d6eec9 ;
+    margin-bottom: 5px;
+    opacity: .77;
     
 }
 
@@ -160,7 +198,6 @@ hr {
     padding: 5px;
     
 }
-
 
 form input {
     padding: 3px;
@@ -180,7 +217,7 @@ form input {
     border-radius: 10px;
     padding: 8px;
     background-color: black;
-    color: #6A9A51;
+    color: #d6eec9;
     margin-bottom: 15px; 
     border: 2px solid #d6eec9;
     
@@ -205,32 +242,32 @@ form input {
     margin-top: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-radius: 20px;
+    
 }
 
 .donate p {
     text-align: center;
-    color: #6A9A51;
+    color: #d6eec9;
     padding: 3px;
 }
 
 span {
-    font-size: 42px;
+    
     position: fixed;
     bottom:5%;
     right:2%;
-    border: 2px solid  #6A9A51;
+    border: 2px solid  #d6eec9;
     border-radius: 50%;
     padding: 5px;
     background-color:black ;
-    color:#6A9A51;
+    color:#d6eec9;
     box-shadow: 0 0 15px #d6eec9;
     
 }
 
 span:hover {
     cursor: pointer;
-    background-color: #6A9A51;
+    background-color: #d6eec9;
     color:black ;
     border: 2px solid black;
     
@@ -274,6 +311,10 @@ span:hover {
         justify-content: center;
         align-items: center;
         font-size: .87em;
+    }
+    #container {
+        background-size: cover;
+        background-position: center;
     }
 
     #survey-form {

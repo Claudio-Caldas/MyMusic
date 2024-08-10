@@ -37,7 +37,8 @@
         </section>
         <hr class="divisao">
         <section class="certificados" id="certificados-link">
-
+          <iframe src="certificados.html" frameborder="0" id="link-certificados"></iframe><br>
+          <button class="menu-certificados" id="menu-certificados">Menu</button>
         </section>
         <hr class="divisao">
 
@@ -141,23 +142,23 @@
                    
                    
                   </form>
-                    <div class="donate">
-                        <p>/* Contribua com o artista independente */</p>
-                        <form action="https://www.paypal.com/donate" method="post" target="_top" >
-                            <input type="hidden" name="hosted_button_id" value="9BXJUHA3655LW" />
-                            <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Faça doações com o botão do PayPal" />
-                            <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
-                            </form>
-                    </div> 
-                    <a href="#home">
-                        <span class="material-symbols-outlined" id="seta-voltar">
-                            arrow_upward
-                            </span>
-                    </a>
+                    
                 </div>
                 
         </section>
-       
+        <div class="donate">
+          <p>/* Contribua com o artista independente */</p>
+          <form action="https://www.paypal.com/donate" method="post" target="_top" >
+              <input type="hidden" name="hosted_button_id" value="9BXJUHA3655LW" />
+              <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Faça doações com o botão do PayPal" />
+              <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+      </div> 
+      <a href="#home">
+          <span class="material-symbols-outlined" id="seta-voltar">
+              arrow_upward
+              </span>
+      </a>
     </main>
      
     <footer>
@@ -168,8 +169,10 @@
  let first = document.getElementById('firstEP');
  let second = document.getElementById('secondEP');
  let iframe =  document.getElementById('iframe');
- let fundo = document.getElementById('homeInterface')
- let voltar = document.getElementById('seta-voltar')
+ let fundo = document.getElementById('homeInterface');
+ let voltar = document.getElementById('seta-voltar');
+ let menu = document.getElementById('menu-certificados');
+ let iframe2 = document.getElementById('link-certificados');
 
  first.addEventListener('click', ()=>{
     iframe.innerHTML ='<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1644543652&color=%236a9a51&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/claudio-caldas" title="Cláudio Caldas" target="_blank" style="color: #cccccc; text-decoration: none;">Cláudio Caldas</a> · <a href="https://soundcloud.com/claudio-caldas/sets/estudio-imid-volume-11" title="Estúdio IMID volume 1.1" target="_blank" style="color: #cccccc; text-decoration: none;">Estúdio IMID volume 1.1</a></div>'
@@ -184,7 +187,16 @@
     homeInterface.style.backgroundImage ='none'
  })
 
+ menu.addEventListener('click', ()=>{
+  location.reload()
+  window.location.href = "#certificados-link"
+  console.log('Clicou! no link-certificados')
+  
+ })
+ 
  voltar.style.display = 'none'
+
+ 
  window.addEventListener("scroll", ()=> {
     if(window.scrollY == 0){
         voltar.style.display = 'none'
