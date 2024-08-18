@@ -21,6 +21,13 @@ header h1 {
     padding-top: 10px;
   
 }
+
+header h3 {
+
+    animation-delay: 7s;
+    animation: intro ease-in-out 5s forwards;
+}
+
 header a {
     color: #d6eec9;
     text-decoration: none;
@@ -100,6 +107,8 @@ header nav a:hover {
     justify-content:space-between;
     align-items: center;
     margin: 0 5%;
+    animation-delay: 7s;
+    animation: intro ease-in-out 5s forwards;
     
 }
 
