@@ -188,7 +188,7 @@ fieldset {
     width: 55vw;
     height: 75.7vh;
     margin: auto;
-    background-color: #6b9a518a;
+    background-color: #6b9a516e;
     background-position: center;
     color: #d6eec9;
     text-shadow: 0px 0px 8px black;
@@ -361,6 +361,8 @@ span:hover {
 
     #survey-form {
         height: 100%;
+        font-size: .77em;
+        width: 65vw;
     }
 
     .name-label input, .email-label input, .number-label, #dropdown, .input-radio, .input-checkbox, textarea {
