@@ -4,6 +4,7 @@
     margin:0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
     
      
 }
@@ -50,7 +51,7 @@ header nav  {
 header nav a {
     margin-right: 20px;
     font-size: 1.2em;
-    color:#a5ec7e;
+    color:#6A9A51;
     
 }
 
@@ -85,9 +86,9 @@ header nav a:hover {
     margin-top: 25px;
     padding: 7px;
     cursor: pointer;
-    background-color:black ;
-    color:#d6eec9;
-    border: 2px solid #6A9A51 ;
+    background-color:#6A9A51 ;
+    color:black;
+    border: 2px solid black ;
     box-shadow: 0px 0px 12px 2px #d6eec9 ;
     font-size: 1.1em;
     border-radius: 12px;
@@ -96,8 +97,8 @@ header nav a:hover {
 }
 .listening:hover {
     transform: scale(1.1);
-    background-color:#d6eec9;
-    color:black;
+    background-color:black;
+    color:#6A9A51;
     border: 2px solid #d6eec9;
 }
 
@@ -147,17 +148,17 @@ iframe {
 
 .menu-certificados {
     background-color: black;
-    color: #d6eec9;
+    color: #6A9A51;
     padding: 10px;
     margin-top: 30px;
     border-radius: 7px;
-    border: 2px solid #d6eec9;
+    border: 2px solid #6A9A51;
     box-shadow: 0px 0px 17px 5px #d6eec9 ;
     font-size: 1.3em;
 }
 .menu-certificados:hover {
     cursor: pointer;
-    background-color: #d6eec9;
+    background-color: #6A9A51;
     color: black;
     border: 2px solid black;
 }
@@ -187,9 +188,10 @@ fieldset {
     width: 55vw;
     height: 75.7vh;
     margin: auto;
-    background-color: black;
+    background-color: #6b9a518a;
     background-position: center;
-    color: #6A9A51;
+    color: #d6eec9;
+    text-shadow: 0px 0px 8px black;
     border-radius: 20px;
     padding-bottom: 5px;
     box-shadow: 0px 0px 10px 2px #d6eec9 ;
@@ -227,10 +229,10 @@ form input {
     margin-top: 15px;
     border-radius: 10px;
     padding: 8px;
-    background-color: #6A9A51;
-    color: black;
+    background-color: black;
+    color: #6A9A51;
     margin-bottom: 15px; 
-    border: 2px solid #d6eec9;  
+    border: 2px solid #6A9A51;  
     font-weight: 700;  
 }
 
@@ -239,7 +241,7 @@ form input {
 }
 #submit:hover, #reset:hover {
     background-color: #d6eec9;
-    color: black;
+    color: #6A9A51;
     cursor: pointer;
     border: 2px solid #d6eec9;
     
@@ -284,11 +286,11 @@ span {
     position: fixed;
     bottom:5%;
     right:2%;
-    border: 2px solid  #d6eec9;
+    border: 2px solid  #6A9A51;
     border-radius: 50%;
     padding: 5px;
     background-color: black;
-    color:#d6eec9;
+    color:#6A9A51;
     box-shadow: 0 0 15px #d6eec9;
     transform: scale(1.2);
     
@@ -297,7 +299,7 @@ span {
 
 span:hover {
     cursor: pointer;
-    background-color: #d6eec9;
+    background-color: #6A9A51;
     color:black ;
     border: 2px solid black;
     transform: scale(1.5);
