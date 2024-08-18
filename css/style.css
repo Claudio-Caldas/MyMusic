@@ -147,11 +147,11 @@ iframe {
 
 .menu-certificados {
     background-color: black;
-    color: #6A9A51;
+    color: #d6eec9;
     padding: 10px;
     margin-top: 30px;
     border-radius: 7px;
-    border: 2px solid #6A9A51;
+    border: 2px solid #d6eec9;
     box-shadow: 0px 0px 17px 5px #d6eec9 ;
     font-size: 1.3em;
 }
@@ -159,7 +159,7 @@ iframe {
     cursor: pointer;
     background-color: #d6eec9;
     color: black;
-    border: 2px solid #d6eec9;
+    border: 2px solid black;
 }
 .pesquisa {
     height: 100%;
@@ -288,7 +288,7 @@ span {
     border-radius: 50%;
     padding: 5px;
     background-color: black;
-    color:#6A9A51;
+    color:#d6eec9;
     box-shadow: 0 0 15px #d6eec9;
     transform: scale(1.2);
     
@@ -299,7 +299,7 @@ span:hover {
     cursor: pointer;
     background-color: #d6eec9;
     color:black ;
-    border: 2px solid #d6eec9;
+    border: 2px solid black;
     transform: scale(1.5);
     
 }
