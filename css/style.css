@@ -77,11 +77,22 @@ header nav a:hover {
 
 }
 
-.home .link {
-    margin: auto;
-    text-align: center;
-    background-color: black;
+.listening a {
+    color:#000000;
+    text-decoration: none;
+    
+    font-size: 1.2em; 
+    
 }
+
+.listening a:hover {
+    color:#6A9A51;
+    text-decoration: none;
+    
+    font-size: 1.2em; 
+    
+}
+
 
 .listening {
     margin-top: 25px;
@@ -113,6 +124,7 @@ header nav a:hover {
     animation: intro ease-in-out 5s forwards;
     
 }
+
 
 .iframe {
     width: 90%;

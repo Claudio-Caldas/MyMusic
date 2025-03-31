@@ -24,8 +24,12 @@
             
             <div class="interface" id="homeInterface">
                 <div class="botoes">
-                    <button class="listening" id="firstEP">Estúdio IMID 1.1</button>
-                    <button class="listening" id="secondEP">Between imagination and reality</button>
+                    <button class="listening" id="firstEP">
+                      <a href="https://linktr.ee/claudiocaldas" target="_blank"> Meus links principais</a>
+                    </button>
+                    <button class="listening" id="secondEP">
+                      <a href="https://open.spotify.com/intl-pt/artist/02hBd2E4IAjEll4DDy7MVG?si=pAKIKOvWQ42OuD8MyqAW6A" target="_blank" >Minha música no spotify</a>
+                    </button>
                 </div>
                 <div class="iframe" id="iframe">
                     
@@ -176,16 +180,13 @@
  let iframe2 = document.getElementById('link-certificados');
 
  first.addEventListener('click', ()=>{
-    iframe.innerHTML ='<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1644543652&color=%236a9a51&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/claudio-caldas" title="Cláudio Caldas" target="_blank" style="color: #cccccc; text-decoration: none;">Cláudio Caldas</a> · <a href="https://soundcloud.com/claudio-caldas/sets/estudio-imid-volume-11" title="Estúdio IMID volume 1.1" target="_blank" style="color: #cccccc; text-decoration: none;">Estúdio IMID volume 1.1</a></div>'
+    
 
-    homeInterface.style.backgroundImage ='none'
     
  })
 
  second.addEventListener('click', ()=>{
-    iframe.innerHTML = '<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1644549517&color=%236a9a51&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/claudio-caldas" title="Cláudio Caldas" target="_blank" style="color: #cccccc; text-decoration: none;">Cláudio Caldas</a> · <a href="https://soundcloud.com/claudio-caldas/sets/between-imagination-and-reality" title="Between imagination and reality" target="_blank" style="color: #cccccc; text-decoration: none;">Between imagination and reality</a></div>'
-
-    homeInterface.style.backgroundImage ='none'
+   
  })
 
  menu.addEventListener('click', ()=>{
