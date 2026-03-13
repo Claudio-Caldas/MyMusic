@@ -181,7 +181,8 @@ iframe {
 }
 
  #container {
-    background-image: url(../img/sound\ wave_02_Banner.jpg);
+    /*background-image: url(../img/sound\ wave_02_Banner.jpg);*/
+    background-color:black;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
