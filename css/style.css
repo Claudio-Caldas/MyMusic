@@ -233,7 +233,9 @@ form input {
     margin-bottom: 2px;
     
 }
-
+.input-checkbox {
+margin-right: 7px;
+}
 .submit {
     text-align: right;
     
